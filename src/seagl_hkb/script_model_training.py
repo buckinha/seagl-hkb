@@ -14,10 +14,11 @@ PATH_TEST_DF = os.path.join(constants.DATA_DIR, 'test_dataframe.pickle')
 
 def train_model(save_model=True):
     """ This function trains a random forest classifier on our data, and prints some statistics about its accuracy on
-    the testing data
+    the testing data. The task at hand is to train a classifier that can tell the difference between good and bad web
+    URLs, based on the examples from the dataset provided (from www.kaggle.com/antonyj453/urldataset)
 
     In this case, the training/testing vectors have already been processed (See script_vectorize_datasets.py), and
-    saved as .npz files.  This is a standard format for numpy arrays, and scipy.sparse arrays to be saved into.
+    saved as .npz files.  This is a standard format for numpy arrays, and scipy.sparse arrays.
 
     The original urls, and the labels for each one, are saved in pandas dataframes (also by the vectorization script).
     These were saved using pandas to_pickle() method, and are being loaded by pandas read_pickle() method.

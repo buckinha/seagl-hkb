@@ -10,6 +10,17 @@ My name is Hailey BuckinghamI'm available
 * twitter: @HKBuckingham
 * slack: PDX Women In Tech, Women Who Code Portland
 
+
+## Overview
+
+This code encompasses two tasks. The first is a machine learning exercise that attempts to build a classifier that can
+tell the difference between web URLs that lead to regular websites and those that lead to malicious websites.
+
+The second, is a microservice that hosts the model we build in the first task. The microservice will open several REST
+routes that can accept URLs, and will respond with whether the ML classifier things the URL is good or bad.
+
+
+
 ## Guide
 
 #### Scikit-learn Talk
