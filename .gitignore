@@ -1,0 +1,5 @@
+env/
+.idea/
+*DS_Store*
+*.pyc
+src/seagl_hkb/__pycache__/*

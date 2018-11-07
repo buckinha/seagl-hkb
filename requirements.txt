@@ -1,0 +1,6 @@
+sklearn
+numpy
+pandas
+joblib
+flask
+requests
