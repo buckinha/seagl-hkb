@@ -12,7 +12,7 @@ def main():
     """
     This function loads the raw data, builds the vectorizer that we'll be using based on what's in the data file, and
     then saves all the vectors and pandas dataframes back to disk for later use. It's nice to save the dataframes
-    because if we do anythign to the raw data in this function (like shuffling), then we'd have to make sure to
+    because if we do anything to the raw data in this function (like shuffling), then we'd have to make sure to
     replicate those steps every time we loaded. By saving the dataframes AFTER those modifications, we don't have to
     duplicate the loading steps, and get consistency.
     :return:
@@ -55,7 +55,7 @@ def main():
     scipy.sparse.save_npz(file=os.path.join(constants.DATA_DIR, 'train_vectors.npz'), matrix=X_train)
     scipy.sparse.save_npz(file=os.path.join(constants.DATA_DIR, 'test_vectors.npz'), matrix=X_test)
 
-    # save the dataframes, for ease of use later on (and to make sure we don't have to keep shuffling them
+    # save the dataframes, for ease of use later on (and to make sure we don't have to keep shuffling them)
     pd.to_pickle(df_train, os.path.join(constants.DATA_DIR, 'train_dataframe.pickle'))
     pd.to_pickle(df_test, os.path.join(constants.DATA_DIR, 'test_dataframe.pickle'))
 

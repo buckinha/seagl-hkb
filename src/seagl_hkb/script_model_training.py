@@ -40,7 +40,7 @@ def train_model(save_model=True):
     clf = RandomForestClassifier(n_estimators=15)
     clf.fit(X=train_vectors, y=train_df.label)
 
-    # get some predictions from the classifier, on the first 500 training samples. We'd hope that these are mostly
+    # get some predictions from the classifier. We'd hope that these are mostly
     # correct. If not, the classifier is having a hard time getting anywhere with it's current settings and the current
     # data
     predictions = clf.predict(X=train_vectors)
