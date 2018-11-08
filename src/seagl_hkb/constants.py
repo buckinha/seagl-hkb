@@ -1,3 +1,10 @@
+"""
+contstants.py: Constant values for use throughout the project
+"""
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
+
 import os
 
 # some standard values that we don't want to have to copy and paste in multiple places

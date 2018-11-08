@@ -1,3 +1,8 @@
+"""script_clustering.py:  My main script for playing with clustering algorithms"""
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
+
 import os
 import scipy.sparse
 import numpy as np

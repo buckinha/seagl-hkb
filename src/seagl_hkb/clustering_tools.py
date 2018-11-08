@@ -1,5 +1,11 @@
-import sklearn.cluster
+"""
+clustering_tools.py: just a few helper functions for working with clusters. I might add a few more, for things like
+sorting clusters by size, etc...
 
+"""
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
 
 def get_cluster_count(clustering_obj):
     cluster_ids = set(clustering_obj.labels_)

@@ -1,9 +1,12 @@
 """
-This is the Flask application that will be running in Docker. In general, it's a LOT better to use NGINX or gunicorn, or
+app_ml.py: This is the Flask application that will be running in Docker. In general, it's a LOT better to use NGINX or gunicorn, or
 other such webserver applications instead of the test server that comes bundled with Flask. However, each of those
 will have different Docker setups, depending on what you're after. For simplicity, I decided to go with the flask server
 here.
 """
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
 
 from flask import Flask, request, jsonify
 import pickle

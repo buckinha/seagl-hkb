@@ -1,3 +1,8 @@
+"""utils.py:  A couple of handy functions"""
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
+
 import pickle
 import gzip
 import os

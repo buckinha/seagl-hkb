@@ -1,10 +1,13 @@
-"""
+"""test_app_ml.py
 This file is mainly to test whether our model microservice is running. In particular, this lets us test the route that
 accepts json in the GET, since that's hard to do in a browser.
 
 These functions will fail if the service is not running locally. See the local urls in each or the request.get()
 functions.
 """
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
 
 import requests
 

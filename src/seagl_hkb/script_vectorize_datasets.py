@@ -1,3 +1,8 @@
+"""script_vectroize_datasets.py: This is my data preparation script."""
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
+
 import pandas as pd
 import os
 import sklearn.utils

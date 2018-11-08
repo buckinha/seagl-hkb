@@ -1,3 +1,8 @@
+"""vectorization.py: My primary URL-to-vector tools, and the URLVectorizer class"""
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
+
 import numpy as np
 import pandas as pd
 import os

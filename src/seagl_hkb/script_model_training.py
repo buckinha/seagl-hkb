@@ -1,3 +1,8 @@
+"""script_model_training.py:  My main script for loading and training the good/bad URL classifier"""
+
+__author__ = "Hailey Buckingham"
+__email__ = "hailey.k.buckingham@gmail.com"
+
 import os
 import scipy.sparse
 import pandas as pd
