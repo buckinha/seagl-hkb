@@ -91,7 +91,7 @@ docker build -t seagl-hkb:latest .
 Run the microservice (assuming the image built successfully)
 
 ```
-docker run -p 5000:5000 seagl_hkb
+docker run -p 5000:5000 seagl-hkb
 ```
 
 You can kill the service by pressing ctrl-c
